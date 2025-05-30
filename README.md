@@ -101,23 +101,7 @@ public String getMeats() {
 
 This code demonstrates polymorphism where each item (sandwich, drink, chip) implements its own `toString()` method, allowing the receipt to display different items uniformly while maintaining their unique characteristics.
 
-## How to Run
 
-1. Clone the repository
-   ```bash
-   git clone https://github.com/JohnVillafana/DELI-cious.git
-   cd DELI-cious
-   ```
-
-2. Compile the Java files
-   ```bash
-   javac -d out src/**/*.java
-   ```
-
-3. Run the application
-   ```bash
-   java -cp out UserInterface.Main
-   ```
 
 ## Project Structure
 
