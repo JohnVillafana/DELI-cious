@@ -151,42 +151,22 @@ src/main/java/com/deliciouspos/
 ## 🚀 Installation & Setup
 
 ### Prerequisites
-- **Java 11** or higher
-- **Maven 3.6+** for dependency management
-- **Git** for version control
+- Java 11+, Maven 3.6+, Git
 
-### Setup Instructions
+### Quick Start
+```bash
+git clone https://github.com/yourusername/DELI-cious.git
+cd DELI-cious
+mvn clean package
+java -jar target/deli-cious-1.0.0.jar
+```
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/DELI-cious.git
-   cd DELI-cious
-   ```
-
-2. **Build the project**
-   ```bash
-   mvn clean compile
-   ```
-
-3. **Run tests**
-   ```bash
-   mvn test
-   ```
-
-4. **Create executable JAR**
-   ```bash
-   mvn clean package
-   ```
-
-5. **Run the application**
-   ```bash
-   java -jar target/deli-cious-1.0.0.jar
-   ```
-
-   Or using Maven:
-   ```bash
-   mvn exec:java -Dexec.mainClass="com.deliciouspos.Main"
-   ```
+### Development
+```bash
+mvn clean compile  # Build project
+mvn test          # Run tests
+mvn exec:java -Dexec.mainClass="com.deliciouspos.Main"  # Run directly
+```
 
 ## 💻 Usage
 
@@ -360,6 +340,32 @@ void testPolymorphicPricing() {
 - **Design Patterns** - Professional application of established patterns
 - **Clean Architecture** - Separation of concerns and modular design
 - **Professional Documentation** - Comprehensive code comments and README
+
+### Development Journey & Repository Management
+
+During development, I encountered initial repository setup challenges that required a fresh start to ensure proper project structure and build configuration. However, the development process demonstrated consistent professional practices:
+
+#### Initial Development Phase
+![Initial Repository](screenshots/initial-repo.png)
+*Early development showing meaningful commit history with 25+ commits and proper feature-based development*
+
+#### Repository Restart & Final Implementation
+![Final Repository](screenshots/final-repo.png)
+*Clean repository structure after resolving setup issues, maintaining the same codebase with improved organization*
+
+**Development Challenges Overcome:**
+- **Maven Configuration Issues** - Initial pom.xml structure needed refinement for proper dependency management
+- **Package Organization** - Restructured packages for better separation of concerns
+- **Build Process** - Resolved compilation and testing pipeline issues
+- **Git Workflow** - Established proper branching strategy and commit conventions
+
+**Key Development Insights:**
+- **Iterative Improvement** - Learned the importance of proper project setup before extensive development
+- **Version Control Best Practices** - Maintained meaningful commit messages throughout development cycles
+- **Code Consistency** - Core business logic and OOP implementation remained consistent across repository iterations
+- **Professional Standards** - Demonstrated ability to restart and reorganize when necessary for project success
+
+The final implementation maintains all original functionality and OOP design principles while benefiting from improved project structure and build configuration.
 
 ---
 
