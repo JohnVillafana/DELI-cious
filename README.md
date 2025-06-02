@@ -347,7 +347,8 @@ During development, I encountered initial repository setup challenges that requi
 
 #### Initial Development Phase
 ![commit-history](images/commit-history.png)
-!![commit-history](images/intial-.png)
+![intial-project-structure](/images/intial-project-structure.png)
+!![Error-start](/images/Errors-start.png)
 *Early development showing meaningful commit history with 25+ commits and proper feature-based development*
 
 #### Repository Restart & Final Implementation
