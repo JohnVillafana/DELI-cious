@@ -346,11 +346,11 @@ void testPolymorphicPricing() {
 During development, I encountered initial repository setup challenges that required a fresh start to ensure proper project structure and build configuration. However, the development process demonstrated consistent professional practices:
 
 #### Initial Development Phase
-![Initial Repository](screenshots/initial-repo.png)
+![commit-history](images/commit-history.png)
+!![commit-history](images/intial-.png)
 *Early development showing meaningful commit history with 25+ commits and proper feature-based development*
 
 #### Repository Restart & Final Implementation
-![Final Repository](screenshots/final-repo.png)
 *Clean repository structure after resolving setup issues, maintaining the same codebase with improved organization*
 
 **Development Challenges Overcome:**
