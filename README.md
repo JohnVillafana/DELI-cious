@@ -144,7 +144,7 @@ src/main/java/com/deliciouspos/
 
 ## 📊 Class Diagram
 
-![Class Diagram](path/to/your/class-diagram-image.png)
+![Class Diagram](images/class-diagram.png)
 
 *Comprehensive UML class diagram showing inheritance relationships, composition structures, and method signatures across all system components.*
 
@@ -205,23 +205,23 @@ Current total: $0.00
 ## 📸 Application Screenshots
 
 ### Home Screen
-![Home Screen](path/to/home-screen.png)
+![Home Screen](images/home-screen.png)
 *Clean main menu interface with navigation options*
 
 ### Order Management
-![Order Screen](path/to/order-screen.png)
+![Order Screen](images/order-screen.png)
 *Order building interface showing current items and running total*
 
 ### Sandwich Builder
-![Sandwich Builder](path/to/sandwich-builder.png)
+![Sandwich Builder](images/sandwich-builder.png)
 *Step-by-step sandwich customization process*
 
 ### Checkout Process
-![Checkout Screen](path/to/checkout-screen.png)
+![Checkout Screen](images/checkout-screen.png)
 *Detailed order summary with itemized pricing*
 
 ### Receipt Generation
-![Receipt Sample](path/to/receipt-sample.png)
+![Receipt Sample](images/receipt-screen.png)
 *Professional formatted receipt with complete order details*
 
 ## 🎯 Interesting Code Examples
